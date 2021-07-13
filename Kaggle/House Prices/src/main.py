@@ -5,4 +5,6 @@ import seaborn as sns
 
 df = pd.read_csv('data/train.csv')
 
-print(df)
+# sns.heatmap(df.isnull(),yticklabels=False,cbar=False,cmap='viridis')
+
+# plt.show()
